@@ -22,5 +22,7 @@
    * webpack的rollup一样的去掉重复的js的原理
    * 怎么保证cookie，在前端登录模块的安全
    * vue ssr首屏渲染
- 
- 
+   * $.extend与$.fn.extend的区别以及作用
+   * 使用过cdn吗
+   * svg扩展
+   * canvas的使用
