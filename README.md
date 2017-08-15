@@ -7,8 +7,8 @@
   * vue的原理，怎么理解这个框架的
    * vue1.0与2.0的区别，2.0增加了哪些东西
    * vuex与vue的关系
-   * 用的elementUI框架遇到过坑吗
-   * gulp与webpack的区别
+   * 各种框架的各种坑
+   * gulp与webpack的区别
    * webpack引入jquery以及jquery的第三方插件
    * resufulApi与传统的请求方式区别，有什么优点
    * git rebase 与 git stash 与 git merge
