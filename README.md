@@ -25,5 +25,5 @@
    * $.extend与$.fn.extend的区别以及作用
    * 使用过cdn吗
    * svg扩展
-   * canvas的使用
+   * canvas的使用  
    * dom的回流与重绘
