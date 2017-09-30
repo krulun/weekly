@@ -12,3 +12,8 @@
    `浮动不影响absolute，但影响static以及realitive。设置后realitive脱离文件原来的流，可理解为fload权重比realitive大。设置realitive仍旧可以设置margin,top,left来累加影响元素的位置，位置仍占据，但显示上会跟absolute一样可能挡住其他元素。`  
    * div左右宽度各50%布局在ie6 ie7下出现问题  
    `在于两个div中间存在空白节点，把空格去掉就行了。第二种方法是设置font-size为0；这个方法跟解决inline-block的间距一个道理。IE会把浮动的元素box认为inline-block（我认为，因为可以inline排列，又具有宽高）`  
+   * link与@import的区别  
+   `1，link是html标签，除了加载css，还可以定义RSS事物等，@import是css的一种方式，存在于style标签内，只能引用css。2，link兼容性好，@import是css2提出的，兼容ie5不友好。3，加载顺序的区别，link直接加载css，而@import是页面加载完成后加载css，造成样式替换，不友好。4,link可以使用js去操作dom控制样式，而@import引入的js控制不了。`
+```link
+   <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+```
